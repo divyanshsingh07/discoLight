@@ -21,8 +21,8 @@ const stopChange=function(){
     clearInterval(stoped)
     stoped=null;
 }
-document.querySelector("#start").addEventListener('click',startChange);
-document.querySelector("#stop").addEventListener('click',stopChange);
+document.querySelector(".right").addEventListener('click',startChange);
+document.querySelector(".left").addEventListener('click',stopChange);
 
 
 
