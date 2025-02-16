@@ -6,22 +6,24 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>hello Arsh</h1>
-    <button id="stop">stop</button>
+    <style>
+        button{
+            padding: 10px 5px;    
+            margin: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+            background-color: black;
+            border-radius: 20px;
+         }
+    </style>
+    <h1>Change the color </h1>
+    <button id="start">start</button>
+    <button id="stop">stop</butto>
+       
+    
 </body>
-<script>
-    const arsh =function(){
-        console.log("ArshThakur");
-    }
-
-const changetext=function(){ document.querySelector('h1').innerHTML="hello ji kya haal hai"
-
-}
-let timeChange=setTimeout(changetext,2000)
-document.querySelector('#stop').addEventListener('click', function(){
-    clearTimeout(timeChange);
-    console.log('Stoped')
-})
-
-</script>
+<script src="colorchange.js"></script>
 </html>
